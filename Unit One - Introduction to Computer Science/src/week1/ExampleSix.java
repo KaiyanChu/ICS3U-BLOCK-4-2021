@@ -20,7 +20,20 @@ public class ExampleSix {
         x++; //adds 1
         y--; //-1
         
+        int s = 5;
+        s++;
+        ++s;
+        s--;
+        --s;
         
+        int g = 3;
+        int f = 3;
+
+        int test1 = 2 * g++; //it did the ++ after the line
+        int test2 = 2 * ++f; // it did before the line ended 
+
+
+
     }
 
 }

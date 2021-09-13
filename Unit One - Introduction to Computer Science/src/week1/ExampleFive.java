@@ -22,6 +22,7 @@ public class ExampleFive {
         
 // Modulus Operator %
 
-System.out.println(13 /3)  //4
-System.out.println(13 %3)  //1 remainder
+System.out.println(13 /3);  //4
+System.out.println(13 %3); //1 remainder
+    }
 }
