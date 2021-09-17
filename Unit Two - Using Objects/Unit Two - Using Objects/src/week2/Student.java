@@ -64,6 +64,12 @@ public class Student {
     System.out.println(grade);
   }
 
+  public String getName(){
+    return name;
+  }
+  public double getAverage(){
+    return average;
+  }
   // naming convention for variables and methods are the same (camelCase)
   public void displayAverage() {
     System.out.println(average);

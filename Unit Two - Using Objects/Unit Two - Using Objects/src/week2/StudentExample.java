@@ -16,7 +16,10 @@ public class StudentExample {
         max.addTest(67);
         max.displayAverage();
 
+        System.out.println(max.getName() + "has an average of " + max.getAverage());
+
     }
+    
 
 }
 
