@@ -36,8 +36,8 @@ public class ExtraPractice {
             public static String exampleFive(String str) {
                 return str.substring(0, str.indexOf("e")) + str.substring(str.indexOf("e") + 1);
             }
-            public static String exampleSix(String str, String remove) {
-                return str.substring(0, str.indexOf(remove)) + str.substring(str.indexOf(remove) + remove.length());
+            public static String exampleSix(String str, String substr) {
+                return str.substring(0, str.indexOf(substr)) + str.substring(str.indexOf(substr) + substr.length());
             }
             public static int  exampleSeven(String str1, String str2){
                 int length = str1.length() + str2.length();
