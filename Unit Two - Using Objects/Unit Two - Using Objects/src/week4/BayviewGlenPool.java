@@ -9,9 +9,9 @@ public class BayviewGlenPool {
         final int transition = 7;
         final int shallowHeight = 3;
         final int deepHeight = 8;
-        final int linearCost = 2;
+    //    final int linearCost = 2;
 
-        double volume = getVolume(length, width, shallowHeight, shallowLength, transition, deepHeight);
+     //   double volume = getVolume(length, width, shallowHeight, shallowLength, transition, deepHeight);
         double surfaceArea = getSurfaceArea(length, width, shallowHeight, shallowLength, transition, deepHeight);
         System.out.println(surfaceArea);
         

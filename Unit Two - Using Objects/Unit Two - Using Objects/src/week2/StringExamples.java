@@ -4,8 +4,8 @@ public class StringExamples {
     public static void main(String[] args) {
         String s1 = "Max"; //string literal
         String s2 = "Fred"; //string literal
-        String s3 = "Max";
-        String s4 = new String("Kyle"); //string object
+        //String s3 = "Max";
+        //String s4 = new String("Kyle"); //string object
         String s5 = new String("Max");
 
         System.out.println(s1.length()); //length returns the number of charactchters in a string 
