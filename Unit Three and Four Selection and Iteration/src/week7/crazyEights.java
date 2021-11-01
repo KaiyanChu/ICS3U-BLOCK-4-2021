@@ -143,7 +143,7 @@ public class crazyEights {
            winner = "Computer 2";
         }
        
-        System.out.println("Points : Player: " + getPoints(playerHand) + " Computer 1: " + getPoints(c1Hand) + " Computer 2: " + getPoints(c2Hand));
+        System.out.println("This Rounds Points Are: Player: " + getPoints(playerHand) + " Computer 1: " + getPoints(c1Hand) + " Computer 2: " + getPoints(c2Hand));
         System.out.println("The Winner of this round is: " + winner);
         return getPoints(playerHand) + "-" + getPoints(c1Hand) + "-" + getPoints(c2Hand);  
      }
