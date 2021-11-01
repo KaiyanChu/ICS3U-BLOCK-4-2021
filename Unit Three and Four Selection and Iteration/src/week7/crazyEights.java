@@ -204,7 +204,7 @@ public class crazyEights {
             hand = hand.substring(0, hand.indexOf("7")) +  hand.substring(hand.indexOf("7") + 3);
          }
          if(hand.indexOf("8") >= 0){
-            points += 8;
+            points += 50;
             hand = hand.substring(0, hand.indexOf("8")) +  hand.substring(hand.indexOf("8") + 3);
          }
          if(hand.indexOf("9") >= 0){
