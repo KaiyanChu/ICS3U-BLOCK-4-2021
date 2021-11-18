@@ -5,7 +5,20 @@ public class SortingAlgorithms {
         int[] arr = {43, 12, 533, 53, 123, 11};
       //  selectionSort(arr);
       inserstionSort(arr);
+     // int index = LinearSearch(arr, 35);
+      //index = LinearSearch(arr, 36);
+
+     // index = binary
     }
+/* 
+    private static int LinearSearch(int[] arr, int findme) {
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i] == findme){
+                return i;
+            }
+        }
+        return -1;
+    } */
 
     private static void inserstionSort(int[] arr) {
         for (int i = 1; i < arr.length; i++) { //sort the next element
@@ -16,7 +29,7 @@ public class SortingAlgorithms {
             }
             arr[j] = temp;
         }
-    }
+    }   
 
     private static void selectionSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {

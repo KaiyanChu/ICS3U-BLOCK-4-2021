@@ -1,0 +1,24 @@
+package week11;
+
+public class ForEachExample {
+    public static void main(String[] args) {
+        int[] arr = {80,95,10,60,35,10,25};
+/*         for (int el : arr) {
+            System.out.println(el);
+        } */
+        
+        String[] names = {"Brad", "Chad", "Ave", "Kayhan", "MathMan", "Trigarosa"};
+            
+        int numVowels = 0;
+        String vowels = "aeiouAEIOU";
+        for (String name : names) {
+            for (int i = 0; i < name.length(); i++) {
+                String letter = name.substring(i, i+1);
+                if(vowels.indexOf(letter) >= 0){
+                    numVowels++;
+                }
+            }
+        }
+     }
+
+    }
