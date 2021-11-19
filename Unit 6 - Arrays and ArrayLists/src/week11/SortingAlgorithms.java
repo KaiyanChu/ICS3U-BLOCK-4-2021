@@ -33,7 +33,7 @@ public class SortingAlgorithms {
 
     private static void selectionSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
-            int smallestIndex = arr[i]
+            int smallestIndex = arr[i];
             for (int j = i + 1; j < arr.length; j++) {
                 if(arr[j] < arr[smallestIndex]){
                     smallestIndex = j;
